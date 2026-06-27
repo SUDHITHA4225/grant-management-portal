@@ -1,0 +1,27 @@
+{
+  "name": "grant-management-portal",
+  "version": "1.0.0",
+  "description": "Secure grant management portal with RBAC and OAuth 2.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "test": "jest --runInBand",
+    "test:coverage": "jest --coverage --runInBand"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.2",
+    "dotenv": "^16.4.2",
+    "express": "^4.21.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.4",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
